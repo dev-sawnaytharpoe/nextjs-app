@@ -7,9 +7,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-gray-900 dark:text-gray-100">
           Welcome to devKtOps
         </h1>
-        <h1 className="text-3xl mt-3 font-bold text-gray-900 dark:text-gray-100">
+        <h3 className="text-3xl mt-3 font-bold text-gray-900 dark:text-gray-100">
           Hello I am Saw Nay Thar Poe
-        </h1>
+        </h3>
         <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">
           Empowering DevOps for your organization
         </p>
