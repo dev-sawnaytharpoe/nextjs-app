@@ -40,6 +40,7 @@ jobs:
             git pull origin develop
             npm install
             npm run build
-            pm2 stop nextjs-pm2-app || true
-            pm2 start nextjs-pm2-app
+            pm2 delete nextjs-pm2-app
+            pm2 ls
+            pm2 start ecosystem.config.js
             pm2 save
